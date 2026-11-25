@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 
 // WEKA URL YA BACKEND YAKO HAPA (Mfano: https://your-api.com/chat)
-const API_URL = '';
+const API_URL = 'process.env.API_URL';
 
 export default function App() {
   const [message, setMessage] = useState('');
