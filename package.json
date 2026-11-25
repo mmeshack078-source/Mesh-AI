@@ -1,0 +1,8 @@
+{
+  "name": "mesh-ai","version": "1.0.0",
+  "description": "AI project",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js"
+  }
+}
