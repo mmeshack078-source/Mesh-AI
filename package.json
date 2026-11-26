@@ -1,8 +1,16 @@
+
 {
-  "name": "mesh-ai","version": "1.0.0",
-  "description": "AI project",
-  "main": "App.js",
+  "name": "mesh-ai",
+  "version": "1.0.0",
+  "description": "MeshAI AI Assistant",
+  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "start": "node App.js"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
   }
 }
